@@ -1,0 +1,34 @@
+.who-container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 258px;
+}
+.who-img {
+	position: absolute;
+	right: 0;
+}
+
+.who-content {
+	width: 637px;
+}
+
+.who-subtitle {
+	text-transform: uppercase;
+	font-size: 36px;
+	color: #454654;
+	font-weight: 400;
+	width: 150px;
+	margin-bottom: 9px;
+}
+
+.who-title {
+	color: #eb3f57;
+	font-size: 36px;
+	text-transform: uppercase;
+	margin: 25px 0 15px 0;
+}
+
+.who-text {
+	font-weight: 400;
+	margin-bottom: 30px;
+}
