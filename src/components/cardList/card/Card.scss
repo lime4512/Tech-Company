@@ -1,0 +1,37 @@
+.card-img {
+	width: 368px;
+	height: 206px;
+	background-color: #454654;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card-container {
+	width: 368px;
+}
+
+.card-title {
+	margin-top: 10px;
+	font-size: 27px;
+	color: #454654;
+	font-weight: 700;
+}
+
+.card-text {
+	color: #454654;
+	font-size: 18px;
+
+	font-weight: 400;
+}
+
+.card-more {
+	font-size: 14px;
+	color: #eb3f57;
+	font-weight: 700;
+	border-bottom: 1px solid #eb3f57;
+}
+.card-more:hover {
+	color: #454654;
+	border-bottom: 1px solid #454654;
+}
