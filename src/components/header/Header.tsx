@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import './Header.scss'
+import { Button } from '../button/Button'
 export const Header = () => {
 	return (
 		<header className='header-container'>
@@ -21,7 +22,7 @@ export const Header = () => {
 						<a href=''>Careers</a>
 					</li>
 				</ul>
-				<button className='global-btn'>Contact us</button>
+				<Button text='Contact Us' />
 			</div>
 		</header>
 	)

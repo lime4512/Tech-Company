@@ -1,0 +1,41 @@
+.banner-container {
+	height: 883px;
+
+	background: url(../../../public/AdobeStock.png) 50% 0% / cover no-repeat;
+	margin-bottom: 120px;
+}
+
+.banner-gradient {
+	height: 883px;
+	background: var(
+		--indium-technology-darker-gradient-new,
+		linear-gradient(90deg, rgba(235, 63, 94, 0.6), rgba(17, 8, 67, 0.6))
+	);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.banner-content {
+	text-align: center;
+	width: 956px;
+}
+
+.banner-title {
+	color: #eb3f57;
+	font-size: 36px;
+	margin-bottom: 8px;
+}
+
+.banner-text {
+	color: #fff;
+	margin-bottom: 46px;
+}
+.arrow {
+	display: block;
+	position: absolute;
+	bottom: 80px;
+	left: 50%;
+
+	transform: translateX(-50%);
+}
