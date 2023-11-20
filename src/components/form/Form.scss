@@ -1,0 +1,135 @@
+.form-container {
+	margin: 272px 124px 137px 124px;
+	border-radius: 16px;
+	background: #fff;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	backdrop-filter: blur(15px);
+	display: flex;
+	justify-content: space-between;
+	border-radius: 16px;
+}
+
+.form-contact {
+	background: url(../../../public/contact.png) 50% 0% / cover no-repeat;
+	border-radius: 16px;
+}
+
+.form-gradient {
+	background: var(
+		--indium-technology-darker-gradient-new,
+		linear-gradient(90deg, rgba(235, 63, 94, 0.6), rgba(17, 8, 67, 0.6))
+	);
+}
+
+.form-content {
+	width: 652px;
+}
+
+.form-content {
+	padding: 62px 62px 36px 40px;
+}
+
+.form-gradient {
+	border-radius: 16px;
+	padding: 150px 62px 160px 131px;
+}
+
+.form-title {
+	font-size: 36px;
+	font-weight: 700;
+	color: #eb3f57;
+	letter-spacing: -0.8px;
+	margin-bottom: 5px;
+}
+
+.form-subtitle {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #67748e;
+	margin-bottom: 73px;
+}
+
+.form-titleInput {
+	font-size: 12px;
+	font-weight: 700;
+	color: #252f40;
+	margin-bottom: 4px;
+}
+
+.form-inp {
+	width: 560px;
+	color: #7878ab;
+	font-size: 16px;
+	outline: none;
+	border: none;
+	display: inline-flex;
+	padding: 10px 64px 10px 32px;
+	align-items: center;
+	border-radius: 15px;
+	background: #f5f5fa;
+	box-shadow: -5px -5px 10px 0px #fff inset,
+		5px 5px 10px 0px rgba(170, 170, 204, 0.5) inset,
+		2px 2px 4px 0px rgba(170, 170, 204, 0.25) inset,
+		-2px -2px 4px 0px rgba(255, 255, 255, 0.5) inset;
+	font-family: Open Sans;
+}
+
+.form-comment {
+	font-family: Open Sans;
+	resize: none;
+	height: 160px;
+	border: none;
+	padding: 19px 62px 112px 34px;
+	border-radius: 15px;
+	font-size: 16px;
+	color: #7878ab;
+	margin-bottom: 26px;
+	width: 560px;
+	background: #f5f5fa;
+	box-shadow: -5px -5px 10px 0px #fff inset,
+		5px 5px 10px 0px rgba(170, 170, 204, 0.5) inset,
+		2px 2px 4px 0px rgba(170, 170, 204, 0.25) inset,
+		-2px -2px 4px 0px rgba(255, 255, 255, 0.5) inset;
+}
+
+.button-form {
+	text-align: right;
+}
+
+.contact-title {
+	font-size: 30px;
+	font-weight: 700;
+	color: white;
+	margin-bottom: 8px;
+}
+
+.contact-text {
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	line-height: 26px;
+	width: 364px;
+	margin-bottom: 34px;
+}
+
+.icon-list {
+	display: flex;
+}
+
+.icon-item {
+	color: white;
+}
+
+.contact-content {
+	margin-bottom: 23px;
+	color: white;
+}
+.contact-content span {
+	font-size: 14px;
+	margin-left: 16px;
+}
+
+.icon-item {
+	margin-right: 37px;
+}
